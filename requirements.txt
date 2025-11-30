@@ -1,2 +1,5 @@
 google-play-scraper
 pandas
+scikit-learn
+nltk
+transformers[torch]
