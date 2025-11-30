@@ -86,7 +86,7 @@ def extract_keywords_by_bank(df, bank_name, num_keywords=15):
     bank_df['processed_review'] = bank_df['review'].apply(preprocess_text)
     
     # Initialize TF-IDF Vectorizer
-    vectorizer = TfidfVectorizer(ngram_range=(1, 3), max_features=1000)
+    vectorizer = TfidfVectorizer(ngram_range=(1, 3), max_features=1250)
     
     try:
         # Check if there's enough processed text to vectorize

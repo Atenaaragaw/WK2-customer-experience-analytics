@@ -7,7 +7,7 @@ banks_data = [
     {'bank': 'Bank of Abyssinia', 'app_id': 'com.boa.boaMobileBanking'},
     {'bank': 'Dashen Bank', 'app_id': 'com.dashen.dashensuperapp'} # Using the SuperApp ID
 ]
-min_reviews_per_bank = 400
+min_reviews_per_bank = 500
 output_path = 'data/raw/cleaned_play_store_reviews.csv'
 # --- Scraping Function ---
 
