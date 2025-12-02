@@ -1,4 +1,4 @@
-# Customer Experience Analytics: Ethiopian Digital Banking Reviews
+# Customer Experience Analytics for Fintech Apps
 
 This project provides a comprehensive analysis of customer satisfaction and thematic feedback for leading digital banking apps in Ethiopia: **Commercial Bank of Ethiopia (CBE)**, **Bank of Abyssinia (BOA)**, and **Dashen Bank**.
 
