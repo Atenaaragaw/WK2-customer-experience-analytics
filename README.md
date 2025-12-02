@@ -30,11 +30,18 @@ WK2-customer-experience-analytics/
 ├── scripts/ 
 │ ├── 1_data_collection/ 
 │ ├── 2_nlp_analysis/ 
-│ │ └── sentiment_thematic_analysis.py # Core NLP script 
+│ │ └── sentiment_thematic_analysis.py # Core NLP script
+│ ├── 3_database
+│ │ └──insert_data_to_db.py
+│ │ └──postgres_setup.sql
+│ ├── 4_analysis
+│ │ └── comparative_sentiment_query.sql
+│ │ └── negative_theme_query.sql
+│ │ └── positive_theme_query.sql
+│ │ └── visualization_script.py
 ├── .venv/ # Python Virtual Environment 
 └── requirements.txt # Project dependencies
-
-
+└── README.md
 ---
 
 # Current Status: Tasks 1 & 2 Complete
@@ -59,9 +66,13 @@ The core data acquisition and analysis phases have been successfully completed, 
 
 ---
 
-# Next Step: Task 3 - Database Storage
+# Task 3 - Database Storage and NLP Analysis and Classification
 
 The project is currently focused on **Task 3: Storing Data in PostgreSQL**. This involves setting up the relational schema (`Banks` and `Reviews` tables) and executing a Python script for efficient batch data insertion.
+Result: Sentiment labels (POSITIVE/NEGATIVE) and thematic keywords generated and updated in the PostgreSQL database.
+
+# Task 4: Final Insights and Reporting
+This task generated the final report and visualizations.
 
 ---
 
@@ -69,7 +80,7 @@ The project is currently focused on **Task 3: Storing Data in PostgreSQL**. This
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Atenaaragaw/WK2-customer-experience-analytics
+    git clone [YOUR-REPO-URL]
     cd WK2-customer-experience-analytics
     ```
 
@@ -84,3 +95,5 @@ The project is currently focused on **Task 3: Storing Data in PostgreSQL**. This
     ```bash
     pip install -r requirements.txt
     ```
+
+[def]: image.png

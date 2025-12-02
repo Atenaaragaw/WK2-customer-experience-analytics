@@ -1,5 +1,11 @@
 google-play-scraper
 pandas
+numpy
+matplotlib
+seaborn
+wordcloud
+transformers
 scikit-learn
 nltk
-transformers[torch]
+psycopg2-binary
+python-dotenv
